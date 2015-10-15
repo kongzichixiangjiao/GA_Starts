@@ -14,6 +14,8 @@
 		DC8FDF171BA1711A00CAA37A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8FDF161BA1711A00CAA37A /* Images.xcassets */; };
 		DC8FDF1A1BA1711A00CAA37A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8FDF181BA1711A00CAA37A /* LaunchScreen.xib */; };
 		DC8FDF261BA1711A00CAA37A /* GA_StartsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDF251BA1711A00CAA37A /* GA_StartsTests.m */; };
+		DC8FDF311BA1712600CAA37A /* UIView+frameAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDF301BA1712600CAA37A /* UIView+frameAdjust.m */; };
+		DC8FDF341BA1712E00CAA37A /* YYStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDF331BA1712E00CAA37A /* YYStarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		DC8FDF1F1BA1711A00CAA37A /* GA_StartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_StartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8FDF241BA1711A00CAA37A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC8FDF251BA1711A00CAA37A /* GA_StartsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GA_StartsTests.m; sourceTree = "<group>"; };
+		DC8FDF2F1BA1712100CAA37A /* UIView+frameAdjust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+frameAdjust.h"; sourceTree = "<group>"; };
+		DC8FDF301BA1712600CAA37A /* UIView+frameAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frameAdjust.m"; sourceTree = "<group>"; };
+		DC8FDF321BA1712A00CAA37A /* YYStarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYStarView.h; sourceTree = "<group>"; };
+		DC8FDF331BA1712E00CAA37A /* YYStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYStarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				DC8FDF0E1BA1711A00CAA37A /* AppDelegate.m */,
 				DC8FDF101BA1711A00CAA37A /* ViewController.h */,
 				DC8FDF111BA1711A00CAA37A /* ViewController.m */,
+				DC8FDF2F1BA1712100CAA37A /* UIView+frameAdjust.h */,
+				DC8FDF301BA1712600CAA37A /* UIView+frameAdjust.m */,
+				DC8FDF321BA1712A00CAA37A /* YYStarView.h */,
+				DC8FDF331BA1712E00CAA37A /* YYStarView.m */,
 				DC8FDF131BA1711A00CAA37A /* Main.storyboard */,
 				DC8FDF161BA1711A00CAA37A /* Images.xcassets */,
 				DC8FDF181BA1711A00CAA37A /* LaunchScreen.xib */,
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC8FDF121BA1711A00CAA37A /* ViewController.m in Sources */,
+				DC8FDF311BA1712600CAA37A /* UIView+frameAdjust.m in Sources */,
+				DC8FDF341BA1712E00CAA37A /* YYStarView.m in Sources */,
 				DC8FDF0F1BA1711A00CAA37A /* AppDelegate.m in Sources */,
 				DC8FDF0C1BA1711A00CAA37A /* main.m in Sources */,
 			);
