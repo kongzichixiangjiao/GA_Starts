@@ -35,7 +35,7 @@ static NSString * const yellow_star_name = @"collectstars";
             [self addSubview:imageView];
             [_stars addObject:imageView];
         }
-        
+        NSLog(@"2");
     }
     return self;
 }
